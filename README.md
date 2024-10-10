@@ -53,7 +53,7 @@ Default: `'["--toolkit", "--samples"]'`.
 **Required with matrix builds**
 
 Add suffix to the log file name which gets uploaded as an artifact. This **has** to be set when running a matrix build.
-The log file already contains the OS type (Linux/Windows) and install method (local/network) but it is not aware of other matrix variables, so add those here.
+The log file is not aware of matrix variables, so add those here.
 
 For example if you use multiple linux distros:
 
